@@ -36,6 +36,7 @@
     .sec0 .top2 { width: 80%; margin: 0 auto; }
     
     .sec1 .inner .text a { font-size: 27px; }
+    .sec1 .inner .innerImg{ width: 480px; height: 320px; }
     
     .sec2 { padding: 124px 0; height: 560px; }
     .sec2 .buttons a { font-size: 20px; }
@@ -48,12 +49,10 @@
     
     .sec0 .inner { background-size: 100%; }
     
-    .sec1 .inner:nth-child(1),
-    .sec1 .inner:nth-child(2),
-    .sec1 .inner:nth-child(3) { background-size: 560px; }
-    .sec1 .inner { padding-top: 400px; margin: 10vw auto; }
+    .sec1 .inner { margin: 10vw auto; }
     .sec1 .inner .text { width: 540px; }
     .sec1 .inner .text a { font-size: 23px; }
+    .sec1 .inner .innerImg{ width: 58vw; height: 38.6vw; }
     
     .sec2 { padding: 124px 0; height: 400px; }
     .sec2 .buttons { font-size: 0; }
@@ -71,13 +70,12 @@
     .sec0 .inner { top: 210px; width: 80%; height: 590px; background-size: contain; }
     
     .sec1 { width: 1224px; }
-    .sec1 .inner { position: relative; height: 300px; padding-top: 0; margin: 160px auto 210px; }
-    .sec1 .inner:nth-child(1),
-    .sec1 .inner:nth-child(3) { background-position: 0% 20%; background-size: 50%; }
-    .sec1 .inner:nth-child(2) { background-position: 100% 20%; background-size: 50%; }
-    .sec1 .inner .text { position: absolute; left: 59.5%; top: 50%; width: 40%; transform: translate3d(0, -50%, 0); }
+    .sec1 .inner { position: relative; height: 300px; margin: 160px auto 210px; }
+    .sec1 .inner .text { position: absolute; left: 59.5%; top: 50%; width: 40%; transform: translate3d(0, -50%, 0); vertical-align: middle; }
     .sec1 .inner .text a { font-size: 22px;  margin-top: 40px; }
     .sec1 .inner:nth-child(2) .text { left: 2%; }
+    .sec1 .inner .innerImg{ display: inline-block; width: 480px; height: 320px; vertical-align: middle; }
+    .sec1 .inner:nth-child(2) .innerImg { position: absolute; right: 0; }
     
     .sec2 { height: 400px; padding: 124px 0; margin-top: 240px; }
     .sec2 .buttons { font-size: 0; }
