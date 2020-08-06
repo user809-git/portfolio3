@@ -1,0 +1,61 @@
+/* CONTAINER */
+.hide { display: none; }
+.container { max-width: 100vw; overflow-x: hidden; }
+.container p { color: #dedede; }
+.container .inner p:not(.large):not(.medium):not(.top2) { font-size: 5vw; line-height: 1.4em; margin-bottom: 0.7em; }
+
+/* SEC0 */
+.sec0 { max-width: 1224px; margin: 0 auto; position: relative; top: 0; left: 0; width: 100%; height: 80vh; }
+.sec0 .inner p { text-align:  center; position: relative; }
+.sec0 .inner .top2 { width: 90%; margin: 24px auto 0; font-size: 5vw; font-weight: 300; line-height: 1.2em; }
+.sec0 .inner1 { position: relative; top: 22vh; max-width: 997px; width: 100%; margin: 0 auto; }
+.sec0 .inner2 { position: relative; top: 40vh; max-width: 997px; width: 100%; margin: 0 auto; }
+.sec0 .inner2 a { display: block; width: 150px; margin: 60px auto 0; padding: 0.9em 0; line-height: 1em; color: #ccc; background-color: #5046ad; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
+.sec0 figure { position: absolute; }
+.sec0 figure.topView { max-width: 50vw; width: 40%; top: -100px; right: -5%; }
+.sec0 figure.sideView { width: 80%; top: 45vh; left: -2%; }
+
+/* SEC1 */
+.sec1 { max-width: 1280px; width: 90%; margin: 10vh auto; }
+.sec1 .inner { text-align: center; margin: 10vh auto 15vh; }
+.sec1 .inner .text .medium { margin-bottom: 5vh; }
+.sec1 .inner .text .medium+p { width: 85%; margin: 0 auto; }
+.sec1 .inner:nth-child(1) .text .medium { max-width: 678px; margin: 0 auto 5vh; }
+.sec1 a:last-of-type { display: block; width: 240px; margin: 60px auto 0; padding: 0.9em 0; line-height: 1em; color: #ccc; background-color: #5046ad; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
+.sec1 .image1 { max-width: 770px; width: 80%; margin: 0 auto; }
+.sec1 .image2 { max-width: 1200px; margin: 0 auto; }
+
+/* 600px ~ 839px */
+@media (min-width:600px) and (max-width: 839px) {
+    .hide { display: block; }
+    .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 30px; }
+    
+    .sec0 .inner .top2 { font-size: 30px; }
+    .sec0 figure.topView { max-width: 50vw; width: 40%; top: -100px; right: -5%; }
+    .sec0 figure.sideView { width: 80%; top: 40vh; left: -2%; }
+}
+
+/* 840px ~ 1279px */
+@media (min-width:840px) and (max-width: 1279px) {
+    .hide { display: block; }
+    .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 26px; }
+    /* CONTAINER */
+    .sec0 .inner .top2 { font-size: 26px; }
+    .sec0 figure.topView { max-width: 500px; top: -240px; right: -5%; }
+    .sec0 figure.sideView { max-width: 800px; width: 80%; top: 35vh; left: -10%; }
+    
+    .sec1 .image1 { width: 60%; margin: 0; }
+}
+
+/* 1280px ~ */
+@media (min-width: 1280px) {
+    .mobileOnly { display: none; }
+    .hide { display: block; }
+    .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 24px; }
+    /* CONTAINER */
+    .sec0 .inner .top2 { font-size: 24px; }
+    .sec0 figure.topView { max-width: 500px; top: -240px; right: -5%; }
+    .sec0 figure.sideView { max-width: 800px; width: 80%; top: 35vh; left: -10%; }
+    
+    .sec1 .image1 { width: 770px; margin: 0; }
+} 

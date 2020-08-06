@@ -1,0 +1,39 @@
+<div class="headWrap">
+    <h1 class="logo"><a href="https://user809-git.github.io/portfolio4/index.html"></a></h1>
+    <a href="javascript:;" onclick="$(this).parent().parent().toggleClass('openMenu');" class="mobileBtn menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></a>
+    <a href="javascript:;" onclick="$(this).parent().parent().removeClass('openMenu').toggleClass('openSearch');" class="mobileBtn explore"><span class="circle"></span><span class="bar"></span></a>
+    <div class="gnb">
+        <ul>
+            <li><a href="https://user809-git.github.io/portfolio4/sub/about.html">About</a></li>
+            <li><a href="https://user809-git.github.io/portfolio4/sub/applicatoin-jumper.html">Application</a>
+                <ul class="gnb_sub">
+                    <li><a href="https://user809-git.github.io/portfolio4/sub/applicatoin-jumper.html">AR JUMPER</a></li>
+                    <li><a href="https://user809-git.github.io/portfolio4/sub/applicatoin-unreal.html">UNREAL</a></li>
+                </ul>
+            </li>
+            <li><a href="https://user809-git.github.io/portfolio4/sub/device.html">Device</a>
+                <ul class="gnb_sub">
+                    <li><a href="https://user809-git.github.io/portfolio4/sub/device.html">Information</a></li>
+                    <li><a href="https://user809-git.github.io/portfolio4/sub/device-pricing.html">Pricing</a></li>
+                </ul>
+            </li>
+            <li><a href="https://user809-git.github.io/portfolio4/sub/software.html">Software</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <form>
+            <input type="search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<script>
+    let scrollY,
+        header = $("header");
+    $(window).scroll(function(){
+        scrollY = $(this).scrollTop();
+        if (scrollY > 0) {
+            header.addClass('fixed');
+        } else header.removeClass('fixed');
+    });
+</script>

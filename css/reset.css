@@ -1,0 +1,15 @@
+@charset "UTF-8"
+    
+html, body { margin: 0; padding: 0; max-width: 100vw; width: 100%; height: 100%; box-sizing: border-box; font-weight: normal; font-style: normal; overflow-x: hidden; }
+ol, ul, li { list-style: none; }
+a { text-decoration: none; }
+h1, h2, h3, h4, h5, h6,
+header, footer, section, article, aside, address,
+p, span, a, b, strong, small,
+form, fieldset, input, button,
+div, img, ul, li, figure {
+    margin: 0; padding: 0;
+    border: none; outline: none;
+}
+form, input, img { max-width: 100%; }
+
