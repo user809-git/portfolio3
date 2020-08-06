@@ -13,13 +13,12 @@
 
 /* SEC1 */
 .sec1 { width: 90%; margin: 0 auto; }
-.sec1 .inner:nth-child(1) { background: url(../src/about-inner-img-1.jpg) no-repeat 50% 5% / 85%; }
-.sec1 .inner:nth-child(2) { background: url(../src/about-inner-img-2.jpg) no-repeat 50% 5% / 85%; }
-.sec1 .inner:nth-child(3) { background: url(../src/about-inner-img-3.jpg) no-repeat 50% 5% / 85%; }
-.sec1 .inner { width: 100%; height: auto; padding-top: 30vh; margin: 5vh auto 10vh; }
+.sec1 .inner { width: 100%; height: auto; margin: 5vh auto 10vh; }
 .sec1 .inner .text { width: 85%; margin: 0 auto; font-weight: 700; }
-.sec1 .inner .text a { display: block; width: 100%; padding-left: 30px; box-sizing: border-box; text-align: left; font-size: 4.5vw; font-weight: 700; color: #6d6893; }
+.sec1 .inner .text a { display: block; width: 100%; box-sizing: border-box; text-align: left; font-size: 4.5vw; font-weight: 700; color: #6d6893; }
 .sec1 .inner .text a i { font-size: 0.8em; }
+.sec1 .inner .innerImg { width: 80vw; height: 60vw; margin: 30px auto; position: relative; overflow: hidden;}
+.sec1 .inner .innerImg img { max-width: 120%; width: 110%; position: absolute; left: -5%; top: -5%; }
 
 /* SEC2 */
 .sec2 { height: 90vw; padding: 20% 0; box-sizing: border-box; background: url(../src/about-img-bottom.jpg) no-repeat 55% 50% / cover; }
