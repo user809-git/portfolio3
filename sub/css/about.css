@@ -1,6 +1,6 @@
 /* CONTAINER */
 .hide { display: none; }
-.container { max-width: 100vw; overflow-x: hidden; }
+.container { max-width: 100vw; overflow-x: hidden; background: url(../src/about-img-bottom.jpg) no-repeat 60% 50% / cover; background-attachment: fixed; }
 .container p { color: #dedede; }
 .container .inner p:not(.large):not(.medium) { font-size: 5vw; line-height: 1.4em; margin-bottom: 0.7em; }
 /* SEC0 */
@@ -12,16 +12,16 @@
 .sec0 .top2 { top: 35vh; font-weight: 700; }
 
 /* SEC1 */
-.sec1 { width: 90%; margin: 0 auto; }
+.sec1 { width: 100%; margin: 0 auto; padding: 5vh 5%; box-sizing: border-box; background-color: #191919; }
 .sec1 .inner { width: 100%; height: auto; margin: 5vh auto 10vh; }
 .sec1 .inner .text { width: 85%; margin: 0 auto; font-weight: 700; }
 .sec1 .inner .text a { display: block; width: 100%; box-sizing: border-box; text-align: left; font-size: 4.5vw; font-weight: 700; color: #6d6893; }
 .sec1 .inner .text a i { font-size: 0.8em; }
-.sec1 .inner .innerImg { width: 80vw; height: 60vw; margin: 30px auto; position: relative; overflow: hidden;}
-.sec1 .inner .innerImg img { max-width: 120%; width: 110%; position: absolute; left: -5%; top: -5%; }
+.sec1 .inner .innerImg { width: 80vw; height: 60vw; margin: 30px auto; position: relative; overflow: hidden; }
+.sec1 .inner .innerImg img { max-width: 120%; width: 120%; position: absolute; left: -10%; top: -2.5%; transform: scale(1.1); }
 
 /* SEC2 */
-.sec2 { height: 90vw; padding: 20% 0; box-sizing: border-box; background: url(../src/about-img-bottom.jpg) no-repeat 55% 50% / cover; }
+.sec2 { height: 90vw; padding: 20% 0; box-sizing: border-box; background: transparent; }
 .sec2 p { text-align: center; margin-bottom: 0.5em; }
 .sec2 .buttons { text-align: center; }
 .sec2 .buttons a { display: block; position: relative; left: 50%; width: max-content; padding: 1em 1.5em; margin-bottom: 0.9em; font-size: 3.3vw; font-weight: 700; color: #ccc; line-height: 1em; border: 2px solid; border-radius: 1em; transform: translate3d(-50%, 0, 0); }
@@ -69,15 +69,15 @@
     .sec0 { height: 800px; }
     .sec0 .inner { top: 210px; width: 80%; height: 590px; background-size: contain; }
     
-    .sec1 { width: 1224px; }
-    .sec1 .inner { position: relative; height: 300px; margin: 160px auto 210px; }
+    .sec1 { padding-bottom: 240px; }
+    .sec1 .inner { position: relative; height: 300px; width: 1224px; margin: 160px auto 210px; }
     .sec1 .inner .text { position: absolute; left: 59.5%; top: 50%; width: 40%; transform: translate3d(0, -50%, 0); vertical-align: middle; }
     .sec1 .inner .text a { font-size: 22px;  margin-top: 40px; }
     .sec1 .inner:nth-child(2) .text { left: 2%; }
-    .sec1 .inner .innerImg{ display: inline-block; width: 480px; height: 320px; vertical-align: middle; }
-    .sec1 .inner:nth-child(2) .innerImg { position: absolute; right: 0; }
+    .sec1 .inner .innerImg{ display: inline-block; width: 480px; height: 320px; top: -10%; vertical-align: middle; }
+    .sec1 .inner:nth-child(2) .innerImg { position: absolute; right: 0; top: -5%; }
     
-    .sec2 { height: 400px; padding: 124px 0; margin-top: 240px; }
+    .sec2 { height: 400px; padding: 124px 0; }
     .sec2 .buttons { font-size: 0; }
     .sec2 .buttons a { font-size: 16px; }
     .sec2 .buttons a { display: inline-block; left: 0; margin-left: 20px; margin-bottom: 0; font-size: 18px; transform: translate(0); }

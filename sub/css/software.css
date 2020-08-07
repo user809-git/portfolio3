@@ -1,6 +1,6 @@
 /* CONTAINER */
 .hide { display: none; }
-.container { max-width: 100vw; overflow-x: hidden; }
+.container { max-width: 100vw; overflow-x: hidden; background: url(../src/software-img-bottom.png) no-repeat 50% 100% / 300%; background-attachment: fixed; }
 .container p { color: #dedede; }
 .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 5vw; line-height: 1.4em; margin-bottom: 0.7em; }
 
@@ -10,17 +10,17 @@
 .sec0 .inner p { text-align:  center; position: relative; top: 20vh; }
 .sec0 .inner .top1 { margin-bottom: 40px; }
 .sec0 .inner .top2 { font-size: 5vw; }
-.container .imgBx { width: 100%; height: 300px; background: url(../src/software-img-top.jpg) no-repeat 50% 50%; background-size: 150%; }
+.container .imgBx { width: 100%; height: 300px; background: url(../src/software-img-top.jpg) no-repeat 50% 50%; background-size: 150%; overflow: hidden; }
 
 /* SEC1 */
-.sec1 { width: 90%; margin: 10vh auto 0; box-sizing: border-box; background-color: #191919; }
+.sec1 { width: 100%; margin: 0 auto; padding: 10vh 0; box-sizing: border-box; background-color: #191919; }
 .sec1 .inner { max-width: 1224px; margin: 10vh auto 15vh; text-align: center; }
 .sec1 .inner .innerImg { width: 80vw; height: 60vw; margin: 30px auto; position: relative; overflow: hidden;}
 .sec1 .inner .innerImg img { max-width: 120%; width: 110%; position: absolute; left: -5%; top: -5%; }
 .sec1 .inner .medium { margin-bottom: 20px; }
 
 /* SEC2 */
-.sec2 { height: 80vw; padding: 16% 5%; box-sizing: border-box; background: url(../src/software-img-bottom.png) no-repeat 50% 50% / cover; }
+.sec2 { height: 80vw; padding: 16% 5%; box-sizing: border-box; }
 .sec2 p { max-width: 571px; margin: 0 auto 20px; text-align: center; }
 .sec2 .large { max-width: 555px; margin: 0 auto 20px; font-weight: 700; }
 .sec2 span { display: block; width: 150px; margin: 0 auto 0; padding: 0.9em 0; line-height: 1em; color: #5046ad; background-color: #ccc; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
@@ -42,6 +42,7 @@
 /* 840px ~ 1279px */
 @media (min-width:840px) and (max-width: 1279px) {
     .hide { display: block; }
+    .container { background-size: cover; }
     .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 26px; }
     
     .sec0 { height: 50vh; }
@@ -58,6 +59,7 @@
 @media (min-width: 1280px) {
     .mobileOnly { display: none; }
     .hide { display: block; }
+    .container { background-size: cover; }
     .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 24px; }
     /* CONTAINER */
     .sec0 { height: 40vh; }
