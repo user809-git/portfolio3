@@ -21,7 +21,7 @@
 .sec1 .inner .text .medium { margin-bottom: 5vh; }
 .sec1 .inner .text .medium+p { width: 85%; margin: 0 auto; }
 .sec1 .inner:nth-child(1) .text .medium { max-width: 678px; margin: 0 auto 5vh; }
-.sec1 a:last-of-type { display: block; width: 240px; margin: 60px auto 0; padding: 0.9em 0; line-height: 1em; color: #ccc; background-color: #5046ad; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
+.sec1 a:last-of-type { display: block; width: 150px; margin: 60px auto 0; padding: 0.9em 0; line-height: 1em; color: #ccc; background-color: #5046ad; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
 .sec1 .image1 { max-width: 770px; width: 80%; margin: 0 auto; }
 .sec1 .image2 { max-width: 1200px; margin: 0 auto; }
 
