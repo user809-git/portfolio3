@@ -56,11 +56,11 @@ header.openSearch .menu {display: none; }
 /* /HEADER */
 
 /* FOOTER */
-footer { height: 160px; background: #757099; padding: 57px 16px 40px; box-sizing: border-box; position: relative; overflow: hidden; }
-footer h6 { width: 50px; }
-footer p { font-size: 12px; }
-footer .topBtn { display: block; position: absolute; right: 16px; bottom: -1em; padding: 1.5em; background-color: rgba(31,31,31,0.5); color: #ddd; border-radius: 100% 100% 0% 0%; font-size: 4vw; cursor: pointer; }
-footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; position: absolute; top: 0.3em; left: 1.7em; border:0.5em solid; border-color: transparent transparent #ddd transparent; box-sizing: border-box; }
+footer { height: 200px; background: #757099; padding: 57px 16px 40px; box-sizing: border-box; position: relative; overflow: hidden; text-align: center; color: #333; }
+footer h6 { width: 50px; margin: 0 auto; }
+footer p { font-size: 14px; font-weight: 700; margin-top: 10px; }
+footer .topBtn { display: block; width: fit-content; position: absolute; right: 50%; bottom: 1em; padding: 1em 1em 0 1em; border: 2px solid; font-size: 14px; font-weight: 700; line-height: 2em; cursor: pointer; transform: translateX(50%); }
+footer .topBtn:before { content: ''; display: block; width: 0.8em; height: 0.8em; position: absolute; top: .7em; left: 1.3em; border-top: 2px solid; border-right: 2px solid; box-sizing: border-box; transform: rotate(-45deg); }
 /* /FOOTER */
 
 /*
@@ -76,8 +76,8 @@ footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; po
     header .gnb li { padding: 10px 6.2vw 9px; }
     
     /* FOOTER */
-    footer { height: 160px; padding: 58px 16px 60px; }
-    footer h6 { width: 80px; }
+    footer { height: 200px; padding: 58px 16px 60px; }
+    footer h6 { width: 60px; }
     footer .topBtn { font-size: 16px; }
     footer .topBtn:before { top: 0.4em; }
 }
@@ -93,10 +93,10 @@ footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; po
     header .search { width: 40vw; left: 30vw; }
     
     /* FOOTER */
-    footer { height: 200px; padding: 80px 24px 60px; }
-    footer h6 { width: 97px; }
+    footer { height: 240px; padding: 80px 24px 60px; }
+    footer h6 { width: 60px; }
     footer p { font-size: 18px; }
-    footer .topBtn { font-size: 16px; right: 24px; }
+    footer .topBtn { font-size: 16px; bottom: 1.5em; }
 }
 
 /* 1280px ~ */
@@ -110,7 +110,7 @@ footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; po
     header.fixed { background: rgba(25,25,25,0.8); }
     header .mobileBtn { display: none; }
     header .headWrap { max-width: 90vw; width: 100%; }
-    header .logo { display: inline-block; width: 90px; height: 30px; position: static; margin-top: 8px; margin-right: 150px; }
+    header .logo { display: inline-block; width: 70px; height: 23px; position: static; margin-top: 8px; margin-right: 150px; }
     header .logo a { display: block; width: 100%; height: 100%; background: url(../src/logo-white.png) no-repeat 50% 50% / cover; }
     header .mobileBtn { display: none; }
     header .gnb { display: inline-block; position: static; position: relative; top: -10px; width: fit-content; height: 40px; background-color:  transparent; }
@@ -140,7 +140,7 @@ footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; po
     header .gnb li .gnb_sub li:hover a { color: #eee; }
     header .gnb li .gnb_sub li a:hover:after { animation: none; }
     
-    header .search { display: inline-block; max-width: 300px; width: 25vw; height: 40px; left: auto; right: 0; top: 2px; background-color: #3F3E47; border-radius: 20px; padding: 0; }
+    header .search { display: inline-block; max-width: 300px; width: 25vw; height: 32px; left: auto; right: 0; top: 2px; background-color: #3F3E47; border-radius: 20px; padding: 0; }
     header .search form { display: block; width: 100%; height: 100%; }
     header .search form:focus-within { background-color: #5f5c78; color: #dedede; }
     header .search input[type=search] { width: calc(100% - 45px); height: 100%; padding: 10px 14px; box-sizing: border-box; border-radius: 20px; background: transparent; color: #fefefe; font-size: 20px; }
@@ -149,17 +149,16 @@ footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; po
     
     header.fixed { height: 80px; padding-top: 24px; }
     header.fixed .headWrap { max-width: 100%; }
-    header.fixed .logo { width: 70px; height: 23px; }
-    header.fixed .gnb li a { line-height: 32px; font-size: 0.9em; }
+    header.fixed .gnb li a { line-height: 32px; }
     header.fixed .search { height: 32px; }
     header.fixed .gnb li:hover .gnb_sub { top: 32px; margin-left: -20px; padding-top: 24px; }
     header.fixed .gnb li:hover .gnb_sub li { display: block;  margin-right: 26px; background: rgba(25,25,25,0.8); padding: 0 40px 10px 20px; }
     header.fixed .gnb li:hover .gnb_sub li a { font-size: 0.8em; font-weight: 400; }
     
     /* FOOTER */
-    footer { height: 200px; padding: 80px 88px 60px; }
-    footer h6 { width: 80px; }
+    footer { height: 200px; padding: 80px 88px 60px; text-align: left; }
+    footer h6 { width: 80px; margin: 0; }
     footer p { font-size: 16px; }
-    footer .topBtn { font-size: 16px; right: 88px; }
+    footer .topBtn { font-size: 16px; right: 88px; bottom: 2em; }
 }
 
