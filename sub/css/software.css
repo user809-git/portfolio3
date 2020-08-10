@@ -21,9 +21,10 @@
 
 /* SEC2 */
 .sec2 { height: 80vw; padding: 16% 5%; box-sizing: border-box; }
-.sec2 p { max-width: 571px; margin: 0 auto 20px; text-align: center; }
+.sec2 p { max-width: 571px; margin: 0 auto 30px; text-align: center; }
 .sec2 .large { max-width: 555px; margin: 0 auto 20px; font-weight: 700; }
-.sec2 span { display: block; width: 150px; margin: 0 auto 0; padding: 0.9em 0; line-height: 1em; color: #5046ad; background-color: #ccc; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
+.sec2 span { position: relative; display: block; width: 150px; height: 2.8em; margin: 0 auto 0; line-height: 1em; color: #5046ad; background-color: #ccc; border-radius: 0.7em; font-size: 18px; font-weight: 700; text-align: center; }
+.sec2 span:after { content: 'Coming Soon'; display: block; padding: 0 1.5em; position: absolute; left: -6%; top: 20%; background: #5400FF; color: white; width: 75%; height: 1.5em; line-height: 1.5em; transition: width 0.5s; transform: rotate(-15deg); }
 
 
 /* 600px ~ 839px */

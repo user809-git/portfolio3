@@ -16,19 +16,17 @@ $(function(){
                     detailImg.removeClass('on');
                     detailImg.eq(current).addClass('on');
                 }
-            }, 2500);
+            }, 1300);
         }
     
     };
     
     function pause() {
-        $(".pauseIcon").fadeIn(300);
-        setTimeout(function(){ $(".pauseIcon").fadeOut(300) }, 700);
+        $(".pauseIcon").stop().fadeIn(300);
     }
     
     function play() {
-        $(".playIcon").fadeIn(300);
-        setTimeout(function(){ $(".playIcon").fadeOut(300) }, 700);
+        $(".pauseIcon").stop().fadeOut(300);
     }
     
     $(".imgViewer li").on({
