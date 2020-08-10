@@ -56,14 +56,15 @@ header.openSearch .menu {display: none; }
 /* /HEADER */
 
 /* FOOTER */
-footer { height: 130px; background: #5f5c78; padding: 57px 16px 40px; box-sizing: border-box; position: relative; }
+footer { height: 160px; background: #757099; padding: 57px 16px 40px; box-sizing: border-box; position: relative; overflow: hidden; }
 footer h6 { width: 50px; }
 footer p { font-size: 12px; }
+footer .topBtn { display: block; position: absolute; right: 16px; bottom: -1em; padding: 1.5em; background-color: rgba(31,31,31,0.5); color: #ddd; border-radius: 100% 100% 0% 0%; font-size: 4vw; cursor: pointer; }
+footer .topBtn:before { content: ''; display: block; width: 1em; height: 1em; position: absolute; top: 0.3em; left: 1.7em; border:0.5em solid; border-color: transparent transparent #ddd transparent; box-sizing: border-box; }
 /* /FOOTER */
 
 /*
-.pointer-effect { width: 50px; height: 50px; position: fixed; top: 0; left: 0; z-index: 100; border: 1px solid #CDC8F9; border-radius: 50%; opacity: 0; transition: all 0.5s; }
-.pointer-effect.clicked { width: 10px; height: 10px; opacity: 1; }
+.pointer-effect
 */
 
 
@@ -77,10 +78,12 @@ footer p { font-size: 12px; }
     /* FOOTER */
     footer { height: 160px; padding: 58px 16px 60px; }
     footer h6 { width: 80px; }
+    footer .topBtn { font-size: 16px; }
+    footer .topBtn:before { top: 0.4em; }
 }
 
 /* 840px ~ 1279px */
-@media (min-width:840px) {
+@media (min-width:840px) and (max-width: 1279px) {
     .large { font-size: 54px; }
     .medium { font-size: 46px; }
     /* HEADER */
@@ -93,6 +96,7 @@ footer p { font-size: 12px; }
     footer { height: 200px; padding: 80px 24px 60px; }
     footer h6 { width: 97px; }
     footer p { font-size: 18px; }
+    footer .topBtn { font-size: 16px; right: 24px; }
 }
 
 /* 1280px ~ */
@@ -156,5 +160,6 @@ footer p { font-size: 12px; }
     footer { height: 200px; padding: 80px 88px 60px; }
     footer h6 { width: 80px; }
     footer p { font-size: 16px; }
+    footer .topBtn { font-size: 16px; right: 88px; }
 }
 
