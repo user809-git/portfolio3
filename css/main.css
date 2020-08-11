@@ -26,7 +26,7 @@ header { border: none; }
 section .descTit { position: absolute; color: #efefef; top: 14vh; left: 12vw; text-align: center; font-size: 8vw; font-weight: 300; }
 section .descText { position: absolute; color: #dedede; top: 22vh; left: 12vw; font-size: 4.6vw; font-weight: 700; }
 section .descTit,
-section .descText { z-index: 90;  text-shadow:  0px 0px 5px rgba(31,31,31,0.5); }
+section .descText { z-index: 90;  text-shadow:  0px 0px 5px rgba(31,31,31,0.5);  }
 section .large-image { z-index: 9; }
 section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; font-size: 0.8em; }
 /* SECTION0 */
@@ -48,11 +48,11 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
 .sec0 .mainText p { font-weight: 700; font-size: 0.6em; line-height: 1.2em; }
 .sec0 .large-top { position: absolute; width: 90vw; top: 40vh; left: 5vw; }
 #show-section-0 .sec0:before { animation: fill-background 2s ease-out, background-wave 20s infinite ease-in-out; }
-#show-section-0 .sec0 .mainText h3 span:nth-of-type(1) { animation: text-in-left 0.5s linear; }
-#show-section-0 .sec0 .mainText h3 span:nth-of-type(2) { display: block; animation: text-in-right 0.5s linear; }
-#show-section-0 .sec0 .mainText h3 span:nth-of-type(3) { display: block; animation: text-in-left 0.5s linear; }
-#show-section-0 .sec0 .large-top { animation: text-in-right 0.5s linear; }
-#show-section-0 .sec0 .mainText p { animation: text-in-left 0.5s linear; }
+#show-section-0 .sec0 .mainText h3 span:nth-of-type(1) { animation: text-in-left 0.7s linear; }
+#show-section-0 .sec0 .mainText h3 span:nth-of-type(2) { display: block; animation: text-in-right 0.7s linear; }
+#show-section-0 .sec0 .mainText h3 span:nth-of-type(3) { display: block; animation: text-in-left 0.7s linear; }
+#show-section-0 .sec0 .large-top { animation: text-in-right 0.7s linear; }
+#show-section-0 .sec0 .mainText p { animation: text-in-left 0.7s linear; }
 @keyframes background-wave {
     0% {
         transform: rotate(-180deg);
@@ -85,12 +85,16 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
 .sec1 .screen .screenCont { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; }
 .sec1 .screen .screenCont .contWrap { width: 100%; height: 100%; position: absolute; top: 0; }
 .sec1 .screen .screenCont .contWrap .vid1 { position: relative; height: 103%; transform: translate(-36%, 0%); z-index: 10; }
+#show-section-1 .sec1 .descTit,
+#show-section-1 .sec1 .descText { animation: text-in-left 0.7s linear; }
 /* ----- */
 /* SECTION2 */
 .sec2 { width: 100%; background: linear-gradient(-45deg, #1C2943, #2C114A); overflow: hidden; }
 .sec2 .effect { width: 100%; height: 100%; position: absolute; left: 0; top: 0; overflow: hidden; }
 .sec2 .large-image { width: 60vw; height: 50vh; position: absolute; left: 20vw; bottom: 0; z-index: 80; }
 .sec2 .large-image .kid { max-width: 120%; width: 120%; position: absolute; left: 0; bottom: 0; }
+#show-section-2 .sec2 .descTit,
+#show-section-2 .sec2 .descText { animation: text-in-left 0.7s linear; }
 #show-section-2 .sec2 ~ { animation: background-image; }
 @keyframes background-image {
     0% {}
@@ -103,6 +107,8 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
 }
 .sec3 .large-image { width: 54vw; height: auto; position: absolute; left: 23vw; top: 35vh;  }
 .sec3 .large-image .character { position: relative; z-index: 10; }
+#show-section-3 .sec3 .descTit,
+#show-section-3 .sec3 .descText { animation: text-in-left 0.7s linear; }
 /* ----- */
 /* SECTION4 */
 .sec4 .innerBox { width: 100%; }
@@ -110,6 +116,7 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
 
 .sec4 .innerBox .innerText { width: 100%; position: absolute; top: 34vh; left: 0; color: #efefef; text-align: center; font-size: 6vw; }
 .sec4 .innerBox .innerText p { margin-bottom: 1em; line-height: 1.6em; font-weight: 700; }
+#show-section-4 .sec4 .innerBox .innerText { animation: text-in-left 0.5s linear; }
 #show-section-4 .sec4 .circle { animation: background-spin 6s infinite; }
 @keyframes background-spin {
     0%   {  }
