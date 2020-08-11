@@ -32,15 +32,15 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
 /* SECTION0 */
 .sec0 { text-align: center; overflow: hidden; }
 .sec0:before { content: ''; position: absolute; width: 500vw; height: 500vw; border-radius: 30% 50% 45% 28%/ 25% 55% 50% 50%; background-color: #5046ad;  top: 40%; left: -200%; }
-.sec0 .mainText { position: absolute; width: 80vw; top: 28vh; left: 10vw; text-align: center; font-size: 8.8vw; color: #efefef; }
-.sec0 .mainText h3 { font-weight: 300; font-size: 1.6em; line-height: 1.05em; margin-bottom: 1em; }
-.sec0 .mainText h3 .strong { display: block; font-weight: 700; font-size: 1.2em;
+.sec0 .mainText { position: absolute; width: 80vw; top: 25vh; left: 10vw; text-align: center; font-size: 8.8vw; color: #efefef; }
+.sec0 .mainText h3 { font-weight: 300; font-size: 1.6em; line-height: 1.05em; margin-bottom: 1.4em; }
+.sec0 .mainText h3 .strong { display: block; font-weight: 700; font-size: 1.2em; line-height: 1.15em;
     color: transparent; text-align: center;
-    -webkit-text-stroke: 0.01em white;  
-    -moz-text-stroke: 0.01em white;
-    -ms-text-stroke:0.01em white;
-    -o-text-stroke: 0.01em white;
-    text-stroke: 0.01em white;
+    -webkit-text-stroke: 0.015em white;  
+    -moz-text-stroke: 0.015em white;
+    -ms-text-stroke:0.015em white;
+    -o-text-stroke: 0.015em white;
+    text-stroke: 0.015em white;
     _color: white;
     outline: 0;
 }
@@ -62,10 +62,9 @@ section .descText .moreBtn { display: block; color: #6d6893; margin-top: 0.5em; 
     }
     50% {
         top: 45%;
-        transform: rotate(360deg);
     }
     100% {
-        transform: rotate(-180deg);
+        transform: rotate(360deg);
     }
 }
 @keyframes fill-background {
