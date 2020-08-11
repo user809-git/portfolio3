@@ -10,84 +10,121 @@
     
     <script src="https://kit.fontawesome.com/5d65a7ae82.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script>
-        $(function(){
-            $("header").load("sub/head.html");
-        });
-    </script>
 </head>
 <body>
     
-    <header></header>
-    <div class="container" id="show-section-0">
-        <section class="sec0 main">
-            <div class="mainText elem">
-                <h3><span class="strong">Jump</span> into <br class="mobileOnly">Reality</h3>
-                <p>Make and Discover new ways <br class="mobileOnly">to connect and create</p>
-            </div>
-            <div class="large-top elem">
-                <img src="src/large_top.png">
-            </div>
-        </section>
-        <section class="sec1">
-            <div class="descTit elem">
-                <p>Application</p>
-            </div>
-            <div class="descText elem">
-                <p>JUMP to bring the world <br>into the real world</p>
-                <a class="moreBtn" href="https://user809-git.github.io/portfolio3/sub/application-jumper.html">learn more about application <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div class="large-image elem">
-                <img class="hand" src="src/large-img2.png">
-                <img class="screen" src="src/large-img2-1.png">
-            </div>
-        </section>
-        <section class="sec2">
-            <div class="descTit elem">
-                <p>Device</p>
-            </div>
-            <div class="descText elem">
-                <p>Now, Many people are already <br>using unreal’s service <br>to enjoy the new reality.</p>
-                <a class="moreBtn" href="https://user809-git.github.io/portfolio3/sub/device.html">learn more about device <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div class="large-image elem">
-                <img class="background" src="src/large-img1.jpg">
-                <img class="cloud1 elem" src="src/cloud1.png">
-                <img class="cloud2 elem" src="src/cloud2.png">
-                <img class="cloud3 elem" src="src/cloud3.png">
-                <img class="cloud4 elem" src="src/cloud4.png">
-                <img class="cloud5 elem" src="src/cloud5.png">
-                <img class="kid" src="src/large-img1-1.png">
-            </div>
-        </section>
-        <section class="sec3">
-            <div class="descTit elem">
-                <p>Software</p>
-            </div>
-            <div class="descText elem">
-                <p>Now, Many people are already <br>using unreal’s service <br>to enjoy the new reality.</p>
-                <a class="moreBtn" href="javascript:;">coming soon <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div class="large-image elem">
-                <img class="character" src="src/character/cha_0.jpg">
-                <div class="cursor"><i class="fas fa-mouse-pointer"></i></div>
-            </div>
-        </section>
-        <section class="sec4">
-            <div class="innerBox elem">
-                <div class="innerText">
-                    <p>Play and Imagine with JUMP.</p>
-                    <p>Now you can change your own world.</p>
-                </div>
-            </div>
-        </section>
+    <header>
+        <div class="headWrap">
+        <h1 class="logo"><a href="https://user809-git.github.io/portfolio3/index.html"></a></h1>
+        <a href="javascript:;" onclick="$(this).parent().parent().toggleClass('openMenu');" class="mobileBtn menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></a>
+        <a href="javascript:;" onclick="$(this).parent().parent().removeClass('openMenu').toggleClass('openSearch');" class="mobileBtn explore"><span class="circle"></span><span class="bar"></span></a>
+        <div class="gnb">
+            <ul>
+                <li><a href="https://user809-git.github.io/portfolio3/sub/about.html">About</a></li>
+                <li><a href="https://user809-git.github.io/portfolio3/sub/application-jumper.html">Application</a>
+                    <ul class="gnb_sub">
+                        <li><a href="https://user809-git.github.io/portfolio3/sub/application-jumper.html">AR JUMPER</a></li>
+                        <li><a href="https://user809-git.github.io/portfolio3/sub/application-unreal.html">UNREAL</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://user809-git.github.io/portfolio3/sub/device.html">Device</a>
+                    <ul class="gnb_sub">
+                        <li><a href="https://user809-git.github.io/portfolio3/sub/device.html">Information</a></li>
+                        <li><a href="https://user809-git.github.io/portfolio3/sub/device-pricing.html">Pricing</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://user809-git.github.io/portfolio3/sub/software.html">Software</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form>
+                <input type="search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
     </div>
-    <footer>
-        <h6><a href="https://user809-git.github.io/portfolio3/index.html"><img src="src/logo-bottom.png" alt="logo-bottom"></a></h6>
+    </header>
+    <div class="container" id="show-section-0">
+        <div class="wrapper">
+            <section class="sec0 main">
+                <div class="mainText">
+                    <h3><span class="strong">Jump</span> <span>into</span><span>Reality</span></h3>
+                    <p>Make and Discover new ways <br class="mobileOnly">to connect and create</p>
+                </div>
+                <div class="large-top">
+                    <img src="src/large_top.png">
+                </div>
+            </section>
+            <section class="sec1">
+                <div class="descTit">
+                    <p>Application</p>
+                </div>
+                <div class="descText">
+                    <p>JUMP to bring the world <br>into the real world</p>
+                    <a class="moreBtn" href="https://user809-git.github.io/portfolio3/sub/application-jumper.html">learn more about application <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="large-image">
+                    <div class="screen">
+                        <div class="screenCont">
+                            <div class="contWrap">
+                                <video class="vid1" muted autoplay playsinline loop src="src/vid/ar_search.mp4"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec2">
+                <div class="descTit">
+                    <p>Device</p>
+                </div>
+                <div class="descText">
+                    <p>Now, Many people are already <br>using unreal’s service <br>to enjoy the new reality.</p>
+                    <a class="moreBtn" href="https://user809-git.github.io/portfolio3/sub/device.html">learn more about device <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="effect">
+
+                </div>
+                <div class="large-image">
+                    <img class="kid" src="src/large-img1-1.png">
+                </div>
+            </section>
+            <section class="sec3">
+                <div class="descTit">
+                    <p>Software</p>
+                </div>
+                <div class="descText">
+                    <p>Now, Many people are already <br>using unreal’s service <br>to enjoy the new reality.</p>
+                    <a class="moreBtn" href="javascript:;">coming soon <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="slider">
+
+                </div>
+                <div class="large-image">
+                    <img class="character" src="src/character/0.png">
+                </div>
+            </section>
+            <section class="sec4">
+                <div class="innerBox">
+                    <div class="background">
+
+                    </div>
+                    <div class="innerText">
+                        <p>Play and Imagine <br class="mobileOnly">with JUMP.</p>
+                        <p>Now, <br class="mobileOnly">you can change <br class="mobileOnly">your own world.</p>
+                    </div>
+                </div>
+            </section>
+        </div> <!--/wrapper-->
+    </div> <!--/container-->
+    <div class="pagination">
+        <div class="pageIndex"><span>01</span><span class="navBar"><span class="navProgress"></span></span><span>05</span></div>
+        <nav><span class="prevPage off"></span><span class="nextPage"></span></nav>
+    </div>
+    <div class="footer">
         <p>&copy Copyright 2020. Jump inc. All rights reserved.</p>
-    </footer>
+    </div>
 <!--    <div class="pointer-effect"></div>-->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 <!--
     <script>
         let poiner = document.querySelector(".pointer-effect");
