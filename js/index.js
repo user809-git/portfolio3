@@ -3,8 +3,8 @@ $(function(){
     let $window = $(window),
         $container = $(".container"),
         $wrapper = $container.children(".wrapper"),
-        $section = $wrapper.children("section"),
-        $prevPage = $("nav .prevPage"),
+        $section = $wrapper.children("section");
+    let $prevPage = $("nav .prevPage"),
         $nextPage = $("nav .nextPage");
     let current = 0,
         sectionLength = $container.children(".wrapper").children("section").length;
@@ -29,7 +29,7 @@ $(function(){
         $prevPage.removeClass('off');
         if (current == sectionLength-1) $(this).addClass('off');
     });
-    
+        
     function pageTurnner(current) {
         if (current < 0 || current > sectionLength -1) return;
         
@@ -38,10 +38,36 @@ $(function(){
         $(".navProgress").css({'height': (current+1) * 20 + '%'});
     }
     
-    (function setLayout() {
-        console.log('resize');
+    const sec2back = $(".sec2 .effect"),
+          sec2colors = sec2back.find(".chips > div");
+    let sec2guide = sec2back.find(".guideLine");
+    sec2colors.click(function(){
+        sec2guide.hide();
+        if ( $(this).hasClass('purple') ) {
+            sec2colors.show();
+            $(this).hide();
+            sec2back.removeClass('blue red').addClass('purple');
+        }
+        if ( $(this).hasClass('blue') ) {
+            sec2colors.show();
+            $(this).hide();
+            sec2back.removeClass('purple red').addClass('blue');
+        }
+        if ( $(this).hasClass('red') ) {
+            sec2colors.show();
+            $(this).hide();
+            sec2back.removeClass('blue purple').addClass('red');
+        }
+    });
+    
+    function setLayout() {
         $window.scrollTop(0);
         $container.attr("id","show-section-0");
         $section.css('height', $window.innerHeight());
-    })();
+    };
+    
+    $window.on({
+        load: setLayout(),
+        resize: setLayout()
+    });
 });
