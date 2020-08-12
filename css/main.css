@@ -234,7 +234,7 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
     .sec2 .effect .chips .blue { top: 60vh; left: 50vw; }
     .sec2 .effect .chips .red { top: 25vh; left: 85vw; }
     .sec2 .effect .guideLine { top: calc(60vh - 60px); left: 50vw; font-size: 22px; }
-    .sec2 .large-image { width: 350px; left: 55vw; }
+    .sec2 .large-image { width: 300px; left: 55vw; }
     /* SECTION 3 */
     .sec3 .large-image { width: 50vw; height: 85vh; left: 45vw; top: 10vh; }
     /* SECTION 4 */
