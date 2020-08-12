@@ -129,7 +129,7 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
 /* SECTION4 */
 .sec4 .innerBox { width: 100%; }
 .sec4 .innerBox .innerText { width: 100%; position: absolute; top: 29vh; left: 0; color: #efefef; text-align: center; font-size: 9vw; transform: skewX(-5deg) rotate(-5deg); }
-.sec4 .innerBox .innerText p { margin-bottom: 1em; line-height: 1.6em; font-weight: 700; text-shadow: -3px -3px 0px #efefef;
+.sec4 .innerBox .innerText p { transition: all 0.5s; margin-bottom: 1em; line-height: 1.6em; font-weight: 700; text-shadow: -3px -3px 0px #efefef;
     color: transparent;
     -webkit-text-stroke: 0.5px #efefef;
     -moz-text-stroke: 0.5px #efefef;
@@ -138,6 +138,8 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
     text-stroke: 0.5px #efefef;
     outline: 0;
 }
+.sec4 .innerBox .innerText:hover p:first-child { transform: translateY(-5%); line-height: 1.65em; }
+.sec4 .innerBox .innerText:hover p:last-child { transform: translateY(5%); line-height: 1.65em; }
 #show-section-4 .sec4 .innerBox .innerText { animation: text-skew-in 0.6s linear; }
 @keyframes text-skew-in {
     0% { opacity: 0; transform: translate3d(-10%, 0, 0)  skewX(-5deg) rotate(-5deg); }
