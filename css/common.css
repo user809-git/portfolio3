@@ -18,7 +18,7 @@ body { background-color: #191919; font-family: 'Roboto', Helvetica, Arial, sans-
 }
 
 /* HEADER */
-header { width: 100vw; height: 55px; position: fixed; top: 0; left: 0; background: transparent; border-bottom: 1px solid #5f5c78; box-sizing: border-box; padding: 20px 16px 17px; text-align: center; transition: all 0.5s; z-index: 99; }
+header { width: 100vw; height: 55px; position: fixed; top: 0; left: 0; background: transparent; border-bottom: 1px solid #5f5c78; box-sizing: border-box; padding: 20px 16px 17px; text-align: center; z-index: 99; }
 header.fixed { background: rgba(25,25,25,0.65); }
 header.openMenu,
 header.openSearch { background: #5f5c78; }
@@ -109,7 +109,7 @@ footer .topBtn:before { content: ''; display: block; width: 0.8em; height: 0.8em
     .large { font-size: 54px; }
     .medium { font-size: 46px; }
     /* HEADER */
-    header { height: 104px; left: 0; right: 0; margin: 0 auto; padding: 62px 88px 0; border: none; text-align: left; }
+    header { height: 104px; left: 0; right: 0; margin: 0 auto; padding: 62px 88px 0; border: none; text-align: left; transition: all 0.5s; }
     header.openMenu, header.openSearch { background: transparent; }
     header.openMenu .gnb { top: -10px; }
     header.fixed { background: rgba(25,25,25,0.8); }
