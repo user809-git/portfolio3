@@ -58,7 +58,6 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
 #show-section-0 .sec0 .mainText h3 .strong:nth-of-type(1) { animation: text-in-left 0.7s linear; }
 #show-section-0 .sec0 .mainText h3 .strong:nth-of-type(2) { display: block; animation: text-in-right 0.7s linear; }
 #show-section-0 .sec0 .mainText h3 .strong:nth-of-type(3) { display: block; animation: text-in-left 0.7s linear; }
-#show-section-0 .sec0 .large-top { animation: text-in-right 0.7s linear; }
 #show-section-0 .sec0 .mainText p { animation: text-in-left 0.7s linear; }
 @keyframes background-wave {
     0% {
