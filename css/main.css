@@ -11,6 +11,7 @@ header { border: none; }
 .pagination nav .prevPage:before { content: ''; display: block; width: 33%; height: 33%; position: absolute; top: 43%; left: 33%; border-top: 2px solid; border-right: 2px solid; box-sizing: border-box; transform: rotate(-45deg); transition: all 0.3s; }
 .pagination nav .nextPage { bottom: 0; }
 .pagination nav .nextPage:before { content: ''; display: block; width: 33%; height: 33%; position: absolute; top: 29%; left: 33%; border-bottom: 2px solid; border-left: 2px solid; box-sizing: border-box; transform: rotate(-45deg); transition: all 0.3s; }
+.pagination nav span.off { cursor: auto; }
 .pagination nav span.off:before { transform: none; width: 50%; height: 2px; left: 25%; top: 48%; border-right: none; }
 /* ----- */
 
