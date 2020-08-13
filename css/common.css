@@ -121,7 +121,8 @@ footer .topBtn:before { content: ''; display: block; width: 0.8em; height: 0.8em
     header .gnb { display: inline-block; position: static; position: relative; top: -10px; width: fit-content; height: 40px; background-color:  transparent; }
     header .gnb ul { display: inline-block; font-size: 0; }
     header .gnb li { display: inline-block; font-size: 18px; margin-right: 80px; padding: 0; }
-    header .gnb li a { position: relative; color: #757099; line-height: 40px; }
+    header .gnb li a { position: relative; line-height: 40px; }
+    header .gnb > ul > li > a { color: #757099; font-size: 1em; }
     header .gnb li a:hover { color: #fefefe; transition: color 0.5s; }
     header .gnb li a:hover:after { content: ''; display: block; position: absolute; animation: gnbHover 0.5s linear; top: 3px; left: 0; width: 0%; height: 20px; background-color: #eee; }
     @keyframes gnbHover {
