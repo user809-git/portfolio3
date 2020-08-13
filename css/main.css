@@ -96,8 +96,8 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
 /* SECTION2 */
 .sec2 { width: 100%; overflow: hidden; }
 .sec2 .effect { width: 100%; height: 100%; position: absolute; left: 0; top: 0; overflow: hidden; }
-.sec2 .effect .guideLine { position: absolute; top: calc(45vh - 40px); left: 13vw; color: #dedede; opacity: 0; }
-.sec2 .effect .guideLine span { display: block; position: relative; }
+.sec2 .effect .guideLine { width: 30px; height: 30px; position: absolute; top: calc(45vh - 40px); left: 13vw; color: #dedede; opacity: 0; }
+.sec2 .effect .guideLine span { display: block; width: 100%; position: relative; }
 .sec2 .effect .guideLine .arr:before { content: ''; display: block; width: 1px; height: 14px; background-color: #dedede; position: absolute; top: 0; left: 49%; }
 .sec2 .effect .guideLine .arr:after { content: ''; display: block; width: 8px; height: 8px; border-bottom: 1px solid #dedede; border-right: 1px solid #dedede; transform: rotate(45deg); position: absolute; top: 5px; left: 37%; }
 .sec2 .effect.purple { background: linear-gradient(-45deg, #16336F, #3A0D6B); }
@@ -176,9 +176,9 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
     .sec2 .effect .chips > div { width: 40px; height: 40px; }
     .sec2 .effect .chips .purple { left: 80vw; }
     .sec2 .effect .chips .blue { top: 55vh; left: 15vw; }
-    .sec2 .effect .guideLine { top: calc(55vh - 50px); left: 15.5vw; }
+    .sec2 .effect .guideLine { width: 40px; height: 40px; top: calc(55vh - 50px); left: 15.5vw; }
     .sec2 .large-image { width: 240px; left: 25vw; }
-    
+    .sec2 .effect .guideLine .arr:before { left: 48%; }
     .sec4 .innerBox .innerText { font-size: 54px; }
 }
 
@@ -201,7 +201,8 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
     .sec2 .effect .chips .purple { left: 55vw; top: 20vh; }
     .sec2 .effect .chips .blue { top: 60vh; left: 35vw; }
     .sec2 .effect .chips .red { top: 25vh; left: 85vw; }
-    .sec2 .effect .guideLine { top: calc(60vh - 50px); left: 35vw; font-size: 18px; }
+    .sec2 .effect .guideLine { width: 40px; height: 40px; top: calc(60vh - 50px); left: 35vw; font-size: 18px; }
+    .sec2 .effect .guideLine .arr:after { left: 39%; }
     .sec2 .large-image { max-width: 350px; width: 33.3vw; left: 55vw; }
     /* SECTION 3 */
     .sec3 .large-image { width: 50vw; height: 85vh; left: 50vw; top: 10vh; }
@@ -235,7 +236,8 @@ section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; 
     .sec2 .effect .chips .purple { left: 55vw; top: 20vh; }
     .sec2 .effect .chips .blue { top: 60vh; left: 50vw; }
     .sec2 .effect .chips .red { top: 25vh; left: 85vw; }
-    .sec2 .effect .guideLine { top: calc(60vh - 60px); left: 50vw; font-size: 22px; }
+    .sec2 .effect .guideLine { width: 50px; height: 50px; top: calc(60vh - 60px); left: 50vw; font-size: 22px; }
+    .sec2 .effect .guideLine .arr:after { left: 41%; }
     .sec2 .large-image { width: 300px; left: 55vw; }
     /* SECTION 3 */
     .sec3 .large-image { width: 50vw; height: 85vh; left: 45vw; top: 10vh; }
