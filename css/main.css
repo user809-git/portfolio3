@@ -18,10 +18,10 @@ header { border: none; }
 .container { max-width: 100vw; width: 100%; height: 100vh; position: fixed; left: 0; top: 0; overflow: hidden; }
 .container .wrapper { width: 100%; position: absolute; top: 0; left: 0; transition: top 1s cubic-bezier(.17,.67,.73,1.04); }
 .container#show-section-0 .wrapper { top: 0; }
-.container#show-section-1 .wrapper { top: -100vh; }
-.container#show-section-2 .wrapper { top: -200vh; }
-.container#show-section-3 .wrapper { top: -300vh; }
-.container#show-section-4 .wrapper { top: -400vh; }
+.container#show-section-1 .wrapper { top: -100%; }
+.container#show-section-2 .wrapper { top: -200%; }
+.container#show-section-3 .wrapper { top: -300%; }
+.container#show-section-4 .wrapper { top: -400%; }
 .container section { height: 100vh; position: relative; }
 section .descTit { position: absolute; color: #efefef; top: 14vh; left: 12vw; text-align: center; font-size: 8vw; font-weight: 300; }
 section .descText { position: absolute; color: #dedede; top: 22vh; left: 12vw; font-size: 4.6vw; font-weight: 700; }

@@ -63,7 +63,7 @@ $(function(){
     function setLayout() {
         $window.scrollTop(0);
         $container.attr("id","show-section-0");
-        $section.css('height', $window.innerHeight());
+//        $section.css('height', '100vh');
     };
     
     $window.on({
