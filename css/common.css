@@ -162,7 +162,7 @@ footer .topBtn:before { content: ''; display: block; width: 0.8em; height: 0.8em
     header.fixed .gnb li a { line-height: 32px; }
     header.fixed .search { height: 32px; }
     header.fixed .gnb li:hover .gnb_sub { top: 32px; margin-left: -20px; padding-top: 24px; }
-    header.fixed .gnb li:hover .gnb_sub li { display: block;  margin-right: 26px; background: rgba(25,25,25,0.8); padding: 0 40px 10px 20px; }
+    header.fixed .gnb li:hover .gnb_sub li { display: block; width: 80px; margin-right: 26px; background: rgba(25,25,25,0.8); padding: 0 40px 10px 20px; }
     header.fixed .gnb li:hover .gnb_sub li a { font-size: 0.8em; font-weight: 400; }
     
     /* FOOTER */
