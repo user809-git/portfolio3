@@ -4,7 +4,7 @@ header { border: none; }
 .pagination .pageIndex span:first-child { position: absolute; top: 0; }
 .pagination .pageIndex span:last-child { position: absolute; bottom: 0; }
 .pagination .pageIndex .navBar { display: block; position: absolute; top: 24px; left: 4px; width: 4px; height: calc(100% - 52px); border: 2px solid; }
-.pagination .pageIndex .navBar .navProgress { width: 100%; min-height: 20%; max-height: 100%; height: 20%; background: #fefefe; transition: height 0.5s;}
+.pagination .pageIndex .navBar .navProgress { width: 100%; min-height: 20%; max-height: 100%; height: 20%; background: #fefefe; border: 1px solid #fefefe; transition: height 0.5s;}
 .pagination nav { position: fixed; right: 16px; bottom: 21px; width: 40px; height: 78px; overflow: hidden; color: #fefefe; z-index: 98; }
 .pagination nav span { display: block; width: 36px; height: 36px; position: absolute; left: 0; border: 2px solid; cursor: pointer; }
 .pagination nav .prevPage { top: 0; }
@@ -32,7 +32,7 @@ section .large-image { z-index: 9; }
 section .descText .moreBtn { display: block; color: #988DEA; margin-top: 0.5em; font-size: 0.8em; }
 /* SECTION0 */
 .sec0 { text-align: center; overflow: hidden; }
-.sec0:before { content: ''; position: absolute; width: 500vw; height: 500vw; border-radius: 30% 50% 45% 28%/ 25% 55% 50% 50%; background-color: #5046ad;  top: 40%; left: -200%; }
+.sec0:before { content: ''; position: absolute; width: 500vw; height: 500vw; border-radius: 30% 50% 45% 28%/ 25% 55% 50% 50%; background-color: #5046ad;  top: 40%; left: -200%; transform: rotate(-180deg); }
 .sec0 .mainText { position: absolute; width: 80vw; top: 26vh; left: 10vw; text-align: center; font-size: 8.8vw; color: #efefef; }
 .sec0 .mainText h3 { margin-bottom: 1.4em; text-transform: uppercase; }
 .sec0 .mainText h3 .strong { display: block; font-weight: 700; font-size: 1.65em; line-height: 1em;
