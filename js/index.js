@@ -34,7 +34,7 @@ $(function(){
         if (current < 0 || current > sectionLength -1) return;
         
         var sectionHeight = -1 * current * 100;
-        container.attr("id",`show-section-${current}`);
+        container.attr("id", 'show-section-' + current);
         $(".navProgress").css({'height': (current+1) * 20 + '%'});
     }
     
