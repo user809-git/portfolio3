@@ -119,7 +119,7 @@ footer .topBtn:before { content: ''; display: block; width: 0.8em; height: 0.8em
     header .logo { display: inline-block; width: 70px; height: 23px; position: static; margin-top: 8px; margin-right: 150px; }
     header .logo a { display: block; width: 100%; height: 100%; background: url(../src/logo-white.png) no-repeat 50% 50% / cover; }
     header .mobileBtn { display: none; }
-    header .gnb { display: inline-block; position: static; position: relative; top: -10px; width: fit-content; height: 40px; background-color:  transparent; padding: 0.5em 0; }
+    header .gnb { display: inline-block; position: static; position: relative; top: -10px; max-width: 590px; width: fit-content; height: 40px; background-color:  transparent; padding: 0.5em 0; }
     header .gnb ul { display: inline-block; font-size: 0; }
     header .gnb li { display: inline-block; font-size: 18px; margin-right: 80px; padding: 0; }
     header .gnb li a { position: relative; line-height: 40px; }
