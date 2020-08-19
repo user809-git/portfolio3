@@ -1,6 +1,6 @@
 $(function(){
     
-    let window = $(window),
+    let $window = $(window),
         container = $(".container"),
         wrapper = container.children(".wrapper"),
         section = wrapper.children("section");
@@ -61,12 +61,12 @@ $(function(){
     });
     
     function setLayout() {
-        window.scrollTop(0);
+        $window.scrollTop(0);
         container.attr("id","show-section-0");
 //        section.css('height', '100vh');
     };
     
-    window.on({
+    $window.on({
         load: setLayout(),
         resize: setLayout()
     });
