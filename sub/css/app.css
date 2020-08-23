@@ -48,8 +48,8 @@
 .sec1 .inner.last { margin: 20vh auto 12vh; }
 .sec1 .inner.last .text { font-weight: 700; }
 .sec1 .inner.last .appIcon { display: inline-block; width: 100px; height: 105px; margin: 40px auto; }
-.sec1 .inner.last .appIcon img { width: 80px; }
-.sec1 .inner.last .appIcon span { color: #ccc; font-weight: 700; }
+.sec1 .inner.last .appIcon img { display: block; width: 80px; }
+.sec1 .inner.last .appIcon span { display: block; color: #ccc; font-weight: 700; }
 
 
 
@@ -73,7 +73,7 @@
     .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 26px; }
     .apps.buttons a { font-size: 22px; }
     
-    .sec0 .inner { background-size: 480px; }
+    .sec0 .inner { background-size: 420px; }
     .sec0 .inner .top2 { font-size: 26px; }
     
     .sec1 .inner.last { margin: 15vh auto 10vh; }
@@ -93,7 +93,7 @@
     .container .inner p:not(.large):not(.medium):not(.top2) { font-size: 24px; }
     .apps.buttons a { font-size: 20px; }
     /* CONTAINER */
-    .sec0 .inner { background-size: 480px; }
+    .sec0 .inner { background-size: 420px; }
     .sec0 .inner .top2 { font-size: 24px; }
     
     .sec1 .inner.last { margin: 10vh auto; }
