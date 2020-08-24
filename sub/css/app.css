@@ -82,8 +82,8 @@
     
     .sec1 .inner .videoWrap a { width: 50vw; height: 50vw; position: relative; }
     .sec1 .inner .videoWrap a:nth-child(1) { left: -10vw; top: 8vh; }
-    .sec1 .inner .videoWrap a:nth-child(2) { left: 10vw; }
-    .sec1 .inner .videoWrap a:nth-child(3) { left: -10vw; top: -8vh; }
+    .sec1 .inner .videoWrap a:nth-child(2) { left: 12vw; }
+    .sec1 .inner .videoWrap a:nth-child(3) { left: 0vw; top: -8vh; }
 }
 
 /* 1280px ~ */
