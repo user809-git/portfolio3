@@ -47,9 +47,9 @@
 
 .sec1 .inner.last { margin: 20vh auto 12vh; }
 .sec1 .inner.last .text { font-weight: 700; }
-.sec1 .inner.last .appIcon { display: inline-block; width: 100px; height: 105px; margin: 40px auto; }
-.sec1 .inner.last .appIcon img { display: block; width: 80px; }
-.sec1 .inner.last .appIcon span { display: block; color: #ccc; font-weight: 700; }
+.sec1 .inner.last .appIcon { display: inline-block; width: 100px; height: 105px; margin: 40px auto; text-align: center; }
+.sec1 .inner.last .appIcon img { display: block; width: 80px; position: relative; left: 50%; transform: translateX(-50%); }
+.sec1 .inner.last .appIcon span { display: block; position: relative; left: 50%; top: 0.5em; transform: translateX(-50%); color: #ccc; font-weight: 700; }
 
 
 
