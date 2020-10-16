@@ -1,4 +1,4 @@
-JUMP - into the unkwown world✨!
+JUMP - into the unknown world✨!
 =========
 
 # 📌 About this Portfolio
